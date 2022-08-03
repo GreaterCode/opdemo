@@ -1,0 +1,11 @@
+apiVersion: app.ydsz.io/v1beta1
+kind: MyApp
+metadata:
+  name: nginx-app
+spec:
+  size: 1
+  image: nginx:latest
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30002
