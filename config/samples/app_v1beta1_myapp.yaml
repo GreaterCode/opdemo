@@ -3,7 +3,7 @@ kind: MyApp
 metadata:
   name: nginx-app
 spec:
-  size: 1
+  size: 2
   image: nginx:latest
   ports:
     - port: 80
